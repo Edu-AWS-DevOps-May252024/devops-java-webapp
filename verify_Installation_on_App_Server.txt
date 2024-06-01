@@ -1,0 +1,6 @@
+Verify Installation using User Data
+----------------------------------
+sudo service codedeploy-agent status
+sudo java -version
+sudo service tomcat status
+sudo service tomcat start
