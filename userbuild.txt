@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo yum update
+sudo yum install ruby -y
+sudo yum install wget
+sudo yum install java-11-amazon-corretto -y
+sudo yum install tomcat -y
+cd /home/ec2-user
+wget https://aws-codedeploy-ap-south-1.s3.amazonaws.com/latest/install
+sudo chmod +x ./install
+sudo ./install auto
